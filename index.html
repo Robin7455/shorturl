@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Shortly URL shortening API project</title>
+  </head>
+
+  <body>
+    <div class="main_container">
+      <header class="header">
+        <nav class="navbar">
+          <div class="logo_image">
+            <img class="logo_img" alt="Shortly_Logo" src="images/logo.svg" />
+          </div>
+          <div class="navdiv">
+            <ul class="list">
+              <li><a class="btn" href="#">Features</a></li>
+              <li><a class="btn" href="#">Pricing</a></li>
+              <li><a class="btn" href="#">Resources</a></li>
+            </ul>
+            <ul class="buttons">
+              <li><a class="btn" href="#">Login</a></li>
+              <li><a href="#" class="button">Sign Up</a></li>
+            </ul>
+          </div>
+
+          <div id="toggler" class="toggler">
+            <div></div>
+          </div>
+        </nav>
+      </header>
+      <!-- hero section        -->
+      <section class="hero_section">
+        <div class="hero_section_content">
+          <h1>More than just shorter links</h1>
+          <p>
+            Build your brand’s recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <a class="button">Get Started</a>
+        </div>
+        <img
+          src="images/illustration-working.svg"
+          alt="illustration_img"
+          class="illustration"
+        />
+      </section>
+
+      <div class="link_shortner_div">
+        <div class="user_input">
+          <input
+            type="text"
+            name="link_input "
+            class="user_link"
+            aria-label="Enter URL to Shorten"
+            placeholder="Shorten a link here..."
+          />
+          <button type="submit_btn" class="button">Shorten it!</button>
+          <div id="responseError" class="error">Please Add Valid URL</div>
+        </div>
+      </div>
+
+      <!-- <div class="short_link_container">
+        box 1 
+        <div class="Url_box">
+          <div class="user_url"><a href="#">gkdskfsk</a></div>
+          <div class="short_url"><a href="#">dgfhshg</a></div>
+          <button class="button">copy</button>
+        </div>
+
+        <div class="Url_box">
+          <div class="user_url"><a href="#">gkdskfsk</a></div>
+          <div class="short_url"><a href="#">dgfhshg</a></div>
+          <button class="button">copy</button>
+        </div>
+      </div> -->
+
+      <!-- featured section -->
+
+      <section class="feature_section">
+        <div class="feature_section_content">
+          <h2>Advance Statistics</h2>
+          <p>
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </div>
+        <div class="featureList">
+          <div class="bg_line"></div>
+          <div class="feature_box">
+            <div class="feature_icon">
+              <img
+                class="feature_img"
+                src="images/icon-brand-recognition.svg"
+                alt="icon-brand-recognition"
+              />
+            </div>
+            <span class="feature_title">Brand Recognition</span>
+            <p class="description">
+              Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </div>
+          <div class="feature_box">
+            <div class="feature_icon">
+              <img
+                class="feature_img"
+                src="images/icon-detailed-records.svg"
+                alt="icon-detailed-records"
+              />
+            </div>
+            <span class="feature_title">Detailed Records</span>
+            <p class="description">
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
+          </div>
+          <div class="feature_box">
+            <div class="feature_icon">
+              <img
+                class="feature_img"
+                src="images/icon-fully-customizable.svg"
+                alt="icon-fully-customizable"
+              />
+            </div>
+            <span class="feature_title">Fully Customizable</span>
+            <p class="description">
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- boost section  -->
+      <section class="boost_section">
+        <div class="boost_section_content">
+          <div class="title">Boost your links today</div>
+          <div class="get_started">
+            <a href="#" class="button">Get Started</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer section  -->
+      <footer class="footer_section">
+        <div class="footer_section_content">
+          <div class="logo_container">
+            <img
+              class="logo_img"
+              src="images/footer_logo.svg"
+              alt="logo_image"
+            />
+          </div>
+
+          <div class="links_container">
+            <div class="item">
+              <div class="heading">Features</div>
+              <a href="#" class="link">Link Shortening</a>
+              <a href="#" class="link">Branded Links</a>
+              <a href="#" class="link">Analytics</a>
+            </div>
+            <div class="item">
+              <div class="heading">Resources</div>
+              <a href="#" class="link">Blog</a>
+              <a href="#" class="link">Developers</a>
+              <a href="#" class="link">Support</a>
+            </div>
+            <div class="item">
+              <div class="heading">Company</div>
+              <a href="#" class="link">About</a>
+              <a href="#" class="link">Our Team</a>
+              <a href="#" class="link">Careers</a>
+              <a href="#" class="link">Contact</a>
+            </div>
+          </div>
+          <div class="social_container">
+            <a href="#"
+              ><img
+                src="images/icon-facebook.svg"
+                class="social_media"
+                alt="fb_icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="images/icon-twitter.svg"
+                class="social_media"
+                alt="twitter_icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="images/icon-pinterest.svg"
+                class="social_media"
+                alt="pinterest_icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="images/icon-instagram.svg"
+                class="social_media"
+                alt="insta_icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="app/script.js"></script>
+  </body>
+</html>
